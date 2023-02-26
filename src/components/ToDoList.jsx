@@ -71,7 +71,7 @@ function TodoList() {
     <div>
       {showModal && (
         <div className="fixed w-full left-0 top-0 h-full bg-transparentBlack flex items-center justify-center">
-          <div className="bg-white p-8 rounded-md">
+          <div className="bg-white p-8 rounded-md flex flex-col">
             <input
               className="border p-2 rounded-md outline-none mb-8"
               value={newTask}
